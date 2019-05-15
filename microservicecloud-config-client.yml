@@ -9,10 +9,10 @@ spring:
   application:
     name: microservice dev
 server:
-  port: 8081
+  port: 8077
 ---
 server:
-  port: 8082
+  port: 8078
 spring:
   profiles: test #测试环境
   application:
