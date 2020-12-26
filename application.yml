@@ -4,10 +4,10 @@
       - dev
 
 ---
-spring: 
-  profiles: dev #开发环境
-  application: 
-    name: microservice dev version5
+##spring: 
+  ##profiles: dev #开发环境
+  ##application: 
+    ##name: microservice dev version5
 
 config: 
   info: version 5
