@@ -10,7 +10,7 @@ spring:
     name: microservice dev version5
 
 config: 
-  info: version 2
+  info: version 3
 ---
 spring: 
   profiles: test #测试环境
