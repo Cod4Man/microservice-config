@@ -1,5 +1,5 @@
 my:
-  info: huhu
+  info: huhu1
 ## Spring相关配置   1
 spring:
   #rabbitmq:
@@ -36,9 +36,9 @@ spring:
       # 设置生产者内存缓冲区的大小。
       buffer-memory: 33554432
       # 键的序列化方式
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #key-serializer: org.apache.kafka.common.serialization.StringSerializer
       # 值的序列化方式
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      #value-serializer: org.apache.kafka.common.serialization.StringSerializer
       # acks=0 ： 生产者在成功写入消息之前不会等待任何来自服务器的响应。
       # acks=1 ： 只要集群的首领节点收到消息，生产者就会收到一个来自服务器成功响应。
       # acks=all(-1) ：只有当所有参与复制的节点全部收到消息时，生产者才会收到一个来自服务器的成功响应。
