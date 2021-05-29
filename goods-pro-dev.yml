@@ -1,5 +1,5 @@
 my:
-  info: huhu1
+  info: huhu122
 ## Spring相关配置   1
 spring:
   #rabbitmq:
