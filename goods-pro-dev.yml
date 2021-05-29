@@ -1,4 +1,5 @@
-
+my:
+  info: heihei
 ## Spring相关配置   1
 spring:
   datasource:
