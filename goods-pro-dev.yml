@@ -2,6 +2,11 @@ my:
   info: xixi
 ## Spring相关配置   1
 spring:
+  rabbitmq:
+    host: 192.168.1.170
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     url: jdbc:mysql://localhost:3306/mall?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
