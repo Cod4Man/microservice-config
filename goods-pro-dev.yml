@@ -8,6 +8,11 @@ spring:
         binder:
           brokers:  192.168.1.170:9092,192.168.1.170:9093,192.168.1.170:9094  # kafka服务地址和端口
           zkNodes: 192.168.1.170:2182  # ZK的集群配置地址和端口
+        bindings: # 服务的整合处理
+          output: # 这个名字是一个通道的名称（生产端用output）
+            destination: studyExchange # 表示要使用的Exchange名称定义
+            content-type: application/json # 设置消息类型，本次为json，文本则设置“text/plain”
+            binder: defaultRabbit  # 设置要绑定的消息服务的具体设置
   #rabbitmq:
    # host: 192.168.1.170
    # port: 5672
